@@ -1,0 +1,9 @@
+package spingBoot.springAOP.Simple_aspect;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan(basePackages = "spingBoot.springAOP.Simple_aspect")
+public class Config {
+}
